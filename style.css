@@ -2,4 +2,51 @@
 
 body{
   font-family: 'Kanit', sans-serrif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+div{
+  display: block;
+}
+
+.container
+{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section{
+  display: block;
+  unicode-bidi: isolate;
+}
+
+button{
+  width: 80%;
+  max-width: 1000px;
+  border: none;
+  background-color: rgb(13, 82, 232);
+  color: white;
+  height: 36px;
+  font-weight: bold;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover{
+  opacity: 0.6;
+}
+
+button:active{
+  opacity: 0.3;
 }

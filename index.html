@@ -16,36 +16,36 @@
         Employee Registration Form
       </h2>
       <form action="#" method="post">
-        <label>Full Name:</label>
-        <input type="text" name="name" required>
+        <div>
+          <label>Full Name:</label>
+          <input type="text" name="name" required>
+        </div>
         <br>
+        <div>
+          <lab1el>Email Address:</label>
+          <input type="email" name="email" required>
+        </div>
         <br>
-    
-        <lab1el>Email Address</label>
-        <input type="email" name="email" required>
+        <div>
+          <label>Department:</label>
+          <select name="dept" id="dept" required>
+            <option value="">IT</option>
+            <option value="">HR</option>
+            <option value="">Finance</option>
+            <option value="">Banking</option>
+          </select>
+        </div>
         <br>
+        <div>
+          <label>Employee ID:</label>
+          <input type="number" name="id" min="0" max="5000" required>
+        </div>
         <br>
-    
-        <label>Department</label>
-        <select name="dept" id="dept" required>
-          <option value="">IT</option>
-          <option value="">HR</option>
-          <option value="">Finance</option>
-          <option value="">Banking</option>
-        </select>
+        <div>
+          <label>Public Profile URL:</label>
+          <input type="url" name="url" required>
+        </div>
         <br>
-        <br>
-        
-        <label>Employee ID</label>
-        <input type="number" name="id" min="0" max="5000" required>
-        <br>
-        <br>
-    
-        <label>Public Profile URL</label>
-        <input type="url" name="url" required>
-        <br>
-        <br>
-    
         <button type="submit">Register Employee</button>
       </form>    
     </section>
