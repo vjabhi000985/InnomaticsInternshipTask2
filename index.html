@@ -22,7 +22,7 @@
         </div>
         <br>
         <div>
-          <lab1el>Email Address:</label>
+          <label>Email Address:</label>
           <input type="email" name="email" required>
         </div>
         <br>
@@ -50,9 +50,9 @@
       </form>    
     </section>
 
-    <section id="emp-li" class="list-section">
+    <section class="list-section">
       <h2>Employee List</h2>
-      <ol type="1">
+      <ol type="1" id="emp-li">
         <li><a href="#register">John Doe - john@example.com</a></li>
         <li><a href="#register">Jane Smith - jane@example.com</a></li>
         <li><a href="#register">John Doe - john@example.com</a></li>
@@ -63,28 +63,48 @@
     <section id="details" class="table-section">
       <h2>Employee Details</h2>
       <table>
-      <tr>
-        <th>Name</th>
-        <th>Employee ID</th>
-        <th>Department</th>
-        <th>Profile Picture</th>
-      </tr>
-      <tr>
-        <td>John Doe</td>
-        <td>1234</td>
-        <td>IT</td>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Employee ID</th>
+          <th>Department</th>
+          <th>Profile Picture</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>1234</td>
+          <td>IT</td>
+          <td>
+            <img src="./images/john.jpg" alt="none" width="60px" height="60px">
+          </td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>6809</td>
+          <td>HR</td>
+          <td>
+            <img src="./images/jane.jpg" alt="none" width="60px" height="60px">
+          </td>
+       </tr>
+       <tr>
+        <td>MS Dhoni</td>
+        <td>7777</td>
+        <td>CTO</td>
         <td>
-          <img src="" alt="none" srcset="">
+          <img src="./images/msd.png" alt="none" width="60px" height="60px">
+        </td>
+       </tr>
+       <tr>
+        <td>Vijay Thalapathy</td>
+        <td>0068</td>
+        <td>CEO</td>
+        <td>
+          <img src="./images/vijay.jpg" alt="none" width="60px" height="60px">
         </td>
       </tr>
-      <tr>
-        <td>Jane Smith</td>
-        <td>6809</td>
-        <td>HR</td>
-        <td>
-          <img src="" alt="none" srcset="">
-        </td>
-     </tr>
+      </tbody>
      </table>
     </section>
 
